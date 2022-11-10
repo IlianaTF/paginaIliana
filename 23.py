@@ -1,0 +1,7 @@
+palabra=input('ingrese la primera linea de un trabalenguas')
+longitud=len(palabra)
+print('el trabalenguas tiene', longitud, 'letras')
+inicio=int(input('ingrese un numero inicial'))
+final=int(input('ingrese un numero final'))
+r=(palabra[inicio:final])
+print(r)
