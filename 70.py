@@ -1,0 +1,8 @@
+a=("Mexico","Argentina","Portugal","Brasil","España")
+print(a)
+print()
+r=input("ingrese un pais de los de la lista")
+print(r, "esta en la posicion", a.index(r),"de la lista")
+print()
+num=int(input("ingrese un numero entre el 0-4"))
+print(a[num])

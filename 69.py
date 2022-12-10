@@ -1,0 +1,5 @@
+a=("Mexico","Argentina","Portugal","Brasil","España")
+print(a)
+print()
+r=input("ingrese un pais de los de la lista")
+print(r, "esta en la posicion", a.index(r),"de la lista")
